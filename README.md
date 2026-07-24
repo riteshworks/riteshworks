@@ -34,6 +34,7 @@ Ex-DRDO Intern**
 - **Solution:** Built an n8n workflow fetching Gmail threads → Classifying intents (LLM) → Fetching Shopify orders → Auto-replying with tracking.
 - **The Mess I Fixed:** Handled `"cancer it"` (cancel), malformed Gmail `threadId`s, Shopify OAuth expiry, and customers using `#` vs no `#` in order IDs.
 - **Result:** 96% accuracy on real historical data. Built to reduce manual handling of repetitive customer support requests.
+[View Project →](https://github.com/riteshworks/ai-customer-support-agent)
 
 ### 2. Supply Chain Vendor Optimization
 - **Context:** Internship at Grant Thornton.
