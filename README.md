@@ -29,12 +29,21 @@ Ex-DRDO Intern**
 
 ## 📦 Featured Projects
 
-### 1. The 96% Accurate AI Support Agent
-- **Problem:** E-commerce brands drown in "Where is my order?" emails.
-- **Solution:** Built an n8n workflow fetching Gmail threads → Classifying intents (LLM) → Fetching Shopify orders → Auto-replying with tracking.
-- **The Mess I Fixed:** Handled `"cancer it"` (cancel), malformed Gmail `threadId`s, Shopify OAuth expiry, and customers using `#` vs no `#` in order IDs.
-- **Result:** 96% accuracy on real historical data. Built to reduce manual handling of repetitive customer support requests.
-  
+### 1. 🤖 AI Customer Support Agent (n8n)
+**Context:** Built a fully autonomous AI customer support system for a Shopify brand.
+
+**Action:** Designed and deployed an n8n workflow that:
+- Reads emails via Gmail API.
+- Cleans unstructured text (HTML, forwards, signatures).
+- Classifies intent & tone using a self-hosted Gemma4 LLM (30+ intents).
+- Fetches orders via Shopify API (with 23-hour token caching).
+- Scrapes live tracking status from Shipway.
+- Generates personalized replies and logs everything to Google Sheets.
+
+**Tech Stack:** n8n · Gemma4 · Ollama · Gmail API · Shopify API · Docker · PostgreSQL · Redis
+
+**Result:** 96% accuracy on real customer emails. Reduced manual support from 3 agents to 0.5 agents. Started at 77% — iterated 4 times to reach 96%.
+
 [View Project →](https://github.com/riteshworks/ai-customer-support-agent)
 
 ### 2. Supply Chain Vendor Optimization
