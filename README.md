@@ -7,9 +7,12 @@ Ex-DRDO Intern**
 
 ## 🚀 What I Actually Do
 
-| I use AI to accelerate development. | I debug the **business logic** (typos, edge cases, expiry tokens). |
-| I don't remember Leetcode. | I remember that "cancer it" means **cancel**, and Shopify tokens expire in 24hrs. |
-| I am a "Pure Coder"? | **No.** I am an **Operational Glue Engineer**. |
+| What I Do | How I Work |
+|---|---|
+| I use AI to accelerate development | I debug business logic (edge cases, failures, integrations) |
+| I don't focus on Leetcode | I focus on solving operational problems |
+| Pure Coder? | No. I am an Operational Glue Engineer |
+
 
 ---
 
