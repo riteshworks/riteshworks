@@ -67,6 +67,20 @@ Ex-DRDO Intern**
 **Result:** Eliminated 2 hours of daily manual stock checking. Standardized procurement tracking across 5 factories.
 
 [View Project →](https://github.com/riteshworks/inventory-procurement-tracker)
+
+### 6. Spares Despatch & Fulfillment Tracker (Excel)
+
+**Context:** Real-world logistics and spares management system deployed across multiple project sites and client engagements.
+
+**Action:** Built a 100% formula-driven (no macros) Excel tracking utility that:
+- Ingests line-item order data across POs, material categories, and delivery locations.
+- Auto-calculates pending vs. despatched quantities, balance math, and line-item fulfillment status.
+- Consolidates transporter details, Lorry Receipt (LR) tracking numbers, and despatch dates across carriers.
+- Generates a dynamic operational summary view for executive reporting and PDF exports without relying on VBA.
+  
+**Result:** Replaced manual multi-sheet data aggregation, reducing daily despatch tracking effort and standardizing order status visibility across logistics teams.
+
+[View Project →](https://github.com/riteshworks/spares-despatch-tracker)
 ---
 
 ## 💡 Why I'm Different
