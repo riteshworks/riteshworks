@@ -54,6 +54,19 @@ Action: Built an Excel-based automation utility to consolidate raw indent and Pu
 Result: Reduced repetitive manual consolidation and simplified recurring procurement status reporting.
 
 [View Project →](https://github.com/riteshworks/open-order-pr-tracker)
+
+### 5. Inventory & Procurement Tracker (Excel)
+**Context:** Real-world procurement system deployed across **5 manufacturing locations**.
+
+**Action:** Built a 100% formula-driven (no macros) Excel template that:
+- Tracks parts via `Inward` → `Consumption` → `Outward` sheets.
+- Auto-calculates **Stock Qty**, **Safety Stock** (50% of monthly average), and **Shortfall**.
+- Flags **Re-order?** with `Yes`/`No` and prioritizes parts using **RRS (Runner/Repeater/Stranger)** + **Risk (H/M/L)**.
+- Cross-links with the **`On Order`** sheet to auto-pull shortfall and flag overdue ETAs.
+
+**Result:** Eliminated 2 hours of daily manual stock checking. Standardized procurement tracking across 5 factories.
+
+[View Project →](https://github.com/riteshworks/inventory-procurement-tracker)
 ---
 
 ## 💡 Why I'm Different
