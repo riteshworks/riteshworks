@@ -45,6 +45,15 @@ Ex-DRDO Intern**
 - **Action:** Validated internal ballistics using OpenMotor and casing design using ANSYS APDL.
 - **Compliance:** Ensured designs met ASME Section VIII standards.
 
+4. Open Order PR Tracker
+
+Context: Real-world procurement workflow developed during my professional experience at Grant Thornton.
+
+Action: Built an Excel-based automation utility to consolidate raw indent and Purchase Requisition data, classify pending and released quantities, and generate project/machine-level procurement summaries.
+
+Result: Reduced repetitive manual consolidation and simplified recurring procurement status reporting.
+
+[View Project →](https://github.com/riteshworks/open-order-pr-tracker)
 ---
 
 ## 💡 Why I'm Different
