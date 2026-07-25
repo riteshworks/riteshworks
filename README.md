@@ -1,118 +1,163 @@
-# 👋 Hi, I'm Ritesh Kumar
+# Hi, I'm Ritesh Kumar
 
-**Supply Chain | AI Automation | Systems Integration
-Ex-DRDO Intern**
-
----
-
-## 🚀 What I Actually Do
-
-| What I Do | How I Work |
-|---|---|
-| I use AI to accelerate development | I debug business logic (edge cases, failures, integrations) |
-| I don't focus on Leetcode | I focus on solving operational problems |
-| Pure Coder? | No. I am an Operational Glue Engineer |
-
+**Supply Chain • AI Automation • Systems Integration**  
+*Former DRDO Intern*
 
 ---
 
-## 🛠️ My Toolbox (The "How")
+## About Me
+
+I build AI-powered automation systems and operational tools that solve real business problems. My work sits at the intersection of supply chain, engineering, and systems integration, with a focus on automating workflows, improving operations, and connecting business processes with technology.
+
+---
+
+## Tech Stack
 
 ![n8n](https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
 ![Gmail API](https://img.shields.io/badge/Gmail_API-EA4335?style=for-the-badge&logo=gmail&logoColor=white)
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?style=for-the-badge&logo=dassaultsystemes&logoColor=white)
-![Python](https://img.shields.io/badge/Python_(AI_Generated)-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
-## 📦 Featured Projects
+# Featured Projects
 
-### 1. 🤖 AI Customer Support Agent (n8n)
-**Context:** Built a fully autonomous AI customer support system for a Shopify brand.
+## AI Customer Support Agent
 
-**Action:** Designed and deployed an n8n workflow that:
-- Reads emails via Gmail API.
-- Cleans unstructured text (HTML, forwards, signatures).
-- Classifies intent & tone using a self-hosted Gemma4 LLM (30+ intents).
-- Fetches orders via Shopify API (with 23-hour token caching).
-- Scrapes live tracking status from Shipway.
-- Generates personalized replies and logs everything to Google Sheets.
+**Built a fully autonomous AI customer support system for a Shopify store.**
 
-**Tech Stack:** n8n · Gemma4 · Ollama · Gmail API · Shopify API · Docker · PostgreSQL · Redis
+### Highlights
+- Automated Gmail support using n8n.
+- Cleaned and structured HTML emails.
+- Classified 30+ customer intents using a self-hosted Gemma 4 LLM.
+- Retrieved order details from Shopify with token caching.
+- Scraped live shipment tracking from Shipway.
+- Generated personalised AI responses and logged activity to Google Sheets.
 
-**Result:** 96% accuracy on real customer emails. Reduced manual support from 3 agents to 0.5 agents. Started at 77% — iterated 4 times to reach 96%.
+**Stack**
 
-[View Project →](https://github.com/riteshworks/ai-customer-support-agent)
+`n8n` • `Gemma 4` • `Ollama` • `Shopify API` • `Gmail API` • `Docker` • `PostgreSQL` • `Redis`
 
-### 2. Supply Chain Vendor Optimization
-- **Context:** Internship at Grant Thornton.
-- **Action:** Analyzed vendor performance data.
-- **Result:** Reduced delivery delays by **50%** through optimized machine allocation.
+**Impact**
 
-### 3. Rocket Motor Casing & Ballistics Design (DRDO)
-- **Context:** Internship at Defence Research and Development Organisation.
-- **Action:** Validated internal ballistics using OpenMotor and casing design using ANSYS APDL.
-- **Compliance:** Ensured designs met ASME Section VIII standards.
+- 96% intent classification accuracy.
+- Improved production accuracy from 77% to 96% through four iterations.
 
-### 4. Open Order PR Tracker
-
-- **Context:** Real-world procurement workflow developed during my professional experience at Grant Thornton.
-
-- **Action:** Built an Excel-based automation utility to consolidate raw indent and Purchase Requisition data, classify pending and released quantities, and generate project/machine-level procurement summaries.
-
-- **Result:** Reduced repetitive manual consolidation and simplified recurring procurement status reporting.
-
-[View Project →](https://github.com/riteshworks/open-order-pr-tracker)
-
-### 5. Inventory & Procurement Tracker (Excel)
-**Context:** Real-world procurement system deployed across **5 manufacturing locations**.
-
-**Action:** Built a 100% formula-driven (no macros) Excel template that:
-- Tracks parts via `Inward` → `Consumption` → `Outward` sheets.
-- Auto-calculates **Stock Qty**, **Safety Stock** (50% of monthly average), and **Shortfall**.
-- Flags **Re-order?** with `Yes`/`No` and prioritizes parts using **RRS (Runner/Repeater/Stranger)** + **Risk (H/M/L)**.
-- Cross-links with the **`On Order`** sheet to auto-pull shortfall and flag overdue ETAs.
-
-**Result:** Eliminated 2 hours of daily manual stock checking. Standardized procurement tracking across 5 factories.
-
-[View Project →](https://github.com/riteshworks/inventory-procurement-tracker)
-
-### 6. Spares Despatch & Fulfillment Tracker (Excel)
-
-**Context:** Real-world logistics and spares management system deployed across multiple project sites and client engagements.
-
-**Action:** Built a 100% formula-driven (no macros) Excel tracking utility that:
-- Ingests line-item order data across POs, material categories, and delivery locations.
-- Auto-calculates pending vs. despatched quantities, balance math, and line-item fulfillment status.
-- Consolidates transporter details, Lorry Receipt (LR) tracking numbers, and despatch dates across carriers.
-- Generates a dynamic operational summary view for executive reporting and PDF exports without relying on VBA.
-  
-**Result:** Replaced manual multi-sheet data aggregation, reducing daily despatch tracking effort and standardizing order status visibility across logistics teams.
-
-[View Project →](https://github.com/riteshworks/spares-despatch-tracker)
----
-
-## 💡 Why I'm Different
-
-I don't work in theory. I work in **messy reality**.
-
-- I’ve handled financial recoveries.
-- I’ve inspected physical OEM components using **NDT (Sonogram)**.
-- I design in **SolidWorks** AND automate in **n8n**.
-
+**Repository:**  
+https://github.com/riteshworks/ai-customer-support-agent
 
 ---
 
-## 📫 Where to Find Me
+## Supply Chain Vendor Optimisation
 
-- **LinkedIn:** https://www.linkedin.com/in/ritesh-kumar04
-- **Email:** Ritesh.Vashishat@protonmail.com
-- **Currently:** Open to freelance gigs OR full-time Operations Technology roles.
+**Grant Thornton Internship**
+
+- Analysed supplier performance and production data.
+- Optimised machine allocation.
+- Reduced delivery delays by **50%**.
 
 ---
 
-## ⚡ Fun Fact (For the Recruiters)
+## Rocket Motor Casing & Internal Ballistics
 
-Built my first production-grade n8n workflow within three months of learning the platform, iterating on real historical customer support data to improve intent classification and automation. 
+**DRDO Internship**
+
+- Validated internal ballistics using OpenMotor.
+- Performed structural analysis using ANSYS APDL.
+- Designed motor casing compliant with ASME Section VIII.
+
+---
+
+## Open Order PR Tracker
+
+Excel automation for procurement teams.
+
+### Features
+- Consolidates indent and purchase requisition data.
+- Tracks pending and released quantities.
+- Generates machine- and project-level procurement summaries.
+
+**Impact**
+
+Reduced repetitive reporting effort and standardised procurement tracking.
+
+**Repository:**  
+https://github.com/riteshworks/open-order-pr-tracker
+
+---
+
+## Inventory & Procurement Tracker
+
+Formula-driven Excel system deployed across **5 manufacturing locations**.
+
+### Features
+
+- Inventory tracking.
+- Automatic stock calculations.
+- Safety stock and shortage calculations.
+- Procurement prioritisation using RRS classification.
+- Purchase order integration.
+
+**Impact**
+
+- Eliminated approximately 2 hours of manual stock reconciliation each day.
+- Standardised procurement across multiple factories.
+
+**Repository:**  
+https://github.com/riteshworks/inventory-procurement-tracker
+
+---
+
+## Spares Dispatch & Fulfilment Tracker
+
+Excel-based logistics tracking system.
+
+### Features
+
+- Dispatch tracking.
+- Pending quantity calculations.
+- Transporter & LR management.
+- Dynamic reporting without VBA.
+
+**Impact**
+
+Replaced manual multi-sheet reporting and improved logistics visibility.
+
+**Repository:**  
+https://github.com/riteshworks/spares-despatch-tracker
+
+---
+
+# Experience
+
+- AI Automation
+- Supply Chain Operations
+- Procurement Systems
+- Systems Integration
+- Mechanical Design
+- Manufacturing Engineering
+- Non-Destructive Testing (NDT)
+
+---
+
+# Contact
+
+**LinkedIn**  
+https://www.linkedin.com/in/ritesh-kumar04
+
+**Email**  
+Ritesh.Vashishat@protonmail.com
+
+**Open To**
+
+- Operations Technology
+- AI Automation
+- Supply Chain Systems
+- Freelance Projects
+- Full-time Opportunities
+
+---
+
+> This repository serves as a central index of my projects across AI Automation, Supply Chain, Engineering, and Operations Technology.
