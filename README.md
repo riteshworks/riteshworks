@@ -50,6 +50,29 @@ https://github.com/riteshworks/ai-customer-support-agent
 
 ---
 
+## Marketplace Product Scraper
+
+**Context**
+
+Browser-based JavaScript toolkit developed to automate product listing extraction from major e-commerce marketplaces.
+
+**Highlights**
+
+- Supports Amazon, Flipkart, and Myntra
+- Exports structured product data directly to CSV
+- Extracts brand, product details, pricing, ratings, purchase counts, and product URLs
+- Runs entirely from the browser console without external dependencies
+
+**Impact**
+
+Reduced manual product data collection effort and enabled quick competitor benchmarking, pricing analysis, and catalogue creation.
+
+**Repository**
+
+https://github.com/riteshworks/marketplace-product-scraper
+
+---
+
 ## Supply Chain Vendor Optimisation
 
 **Grant Thornton Internship**
