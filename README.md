@@ -7,7 +7,11 @@
 
 ## About Me
 
-I build AI-powered automation systems and operational tools that solve real business problems. My work sits at the intersection of supply chain, engineering, and systems integration, with a focus on automating workflows, improving operations, and connecting business processes with technology.
+I build automation systems that connect business operations with technology.
+
+My work combines **AI automation, supply chain operations, engineering workflows, and systems integration** to solve practical problems — from automating customer support workflows to improving procurement and inventory visibility.
+
+I focus on building tools that work in real operational environments, where data is messy, processes are manual, and reliability matters.
 
 ---
 
@@ -17,8 +21,22 @@ I build AI-powered automation systems and operational tools that solve real busi
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
 ![Gmail API](https://img.shields.io/badge/Gmail_API-EA4335?style=for-the-badge&logo=gmail&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?style=for-the-badge&logo=dassaultsystemes&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+# Project Portfolio
+
+**6 projects across:**
+
+- AI Automation
+- Supply Chain Systems
+- Procurement Analytics
+- Inventory Management
+- Engineering Design
+- Data Extraction
 
 ---
 
@@ -26,15 +44,16 @@ I build AI-powered automation systems and operational tools that solve real busi
 
 ## AI Customer Support Agent
 
-**Built a fully autonomous AI customer support system for a Shopify store.**
+Autonomous AI customer support system built for a Shopify store.
 
 ### Highlights
-- Automated Gmail support using n8n.
+
+- Automated Gmail support workflow using n8n.
 - Cleaned and structured HTML emails.
 - Classified 30+ customer intents using a self-hosted Gemma 4 LLM.
 - Retrieved order details from Shopify with token caching.
 - Scraped live shipment tracking from Shipway.
-- Generated personalised AI responses and logged activity to Google Sheets.
+- Generated personalised AI responses and logged activity.
 
 **Stack**
 
@@ -42,34 +61,31 @@ I build AI-powered automation systems and operational tools that solve real busi
 
 **Impact**
 
-- 96% intent classification accuracy.
-- Improved production accuracy from 77% to 96% through four iterations.
+- Achieved **96% intent classification accuracy**.
+- Improved production accuracy from **77% to 96%** through four iterations.
 
 **Repository:**  
-https://github.com/riteshworks/ai-customer-support-agent
+[ai-customer-support-agent](https://github.com/riteshworks/ai-customer-support-agent)
 
 ---
 
-## Marketplace Product Scraper
-
-**Context**
+## Marketplace Product Data Extractor
 
 Browser-based JavaScript toolkit developed to automate product listing extraction from major e-commerce marketplaces.
 
-**Highlights**
+### Highlights
 
-- Supports Amazon, Flipkart, and Myntra
-- Exports structured product data directly to CSV
-- Extracts brand, product details, pricing, ratings, purchase counts, and product URLs
-- Runs entirely from the browser console without external dependencies
+- Supports Amazon, Flipkart, and Myntra.
+- Exports structured product data directly to CSV.
+- Extracts brand, product details, pricing, ratings, purchase counts, and product URLs.
+- Runs directly from the browser console without external dependencies.
 
 **Impact**
 
 Reduced manual product data collection effort and enabled quick competitor benchmarking, pricing analysis, and catalogue creation.
 
-**Repository**
-
-https://github.com/riteshworks/marketplace-product-scraper
+**Repository:**  
+[marketplace-product-scraper](https://github.com/riteshworks/marketplace-product-scraper)
 
 ---
 
@@ -77,9 +93,15 @@ https://github.com/riteshworks/marketplace-product-scraper
 
 **Grant Thornton Internship**
 
+### Highlights
+
 - Analysed supplier performance and production data.
+- Evaluated vendor performance trends.
 - Optimised machine allocation.
-- Reduced delivery delays by **50%**.
+
+**Impact**
+
+Reduced delivery delays by **50%** through improved allocation planning.
 
 ---
 
@@ -87,17 +109,20 @@ https://github.com/riteshworks/marketplace-product-scraper
 
 **DRDO Internship**
 
+### Highlights
+
 - Validated internal ballistics using OpenMotor.
 - Performed structural analysis using ANSYS APDL.
-- Designed motor casing compliant with ASME Section VIII.
+- Designed rocket motor casing compliant with ASME Section VIII requirements.
 
 ---
 
 ## Open Order PR Tracker
 
-Excel automation for procurement teams.
+Excel automation tool for procurement teams.
 
 ### Features
+
 - Consolidates indent and purchase requisition data.
 - Tracks pending and released quantities.
 - Generates machine- and project-level procurement summaries.
@@ -107,29 +132,29 @@ Excel automation for procurement teams.
 Reduced repetitive reporting effort and standardised procurement tracking.
 
 **Repository:**  
-https://github.com/riteshworks/open-order-pr-tracker
+[open-order-pr-tracker](https://github.com/riteshworks/open-order-pr-tracker)
 
 ---
 
 ## Inventory & Procurement Tracker
 
-Formula-driven Excel system deployed across **5 manufacturing locations**.
+Formula-driven Excel inventory system deployed across **5 manufacturing locations**.
 
 ### Features
 
-- Inventory tracking.
-- Automatic stock calculations.
-- Safety stock and shortage calculations.
-- Procurement prioritisation using RRS classification.
-- Purchase order integration.
+- Tracks inward, consumption, and outward inventory movement.
+- Automatically calculates stock quantity and shortages.
+- Calculates safety stock levels.
+- Prioritises procurement using RRS classification.
+- Integrates purchase order tracking.
 
 **Impact**
 
-- Eliminated approximately 2 hours of manual stock reconciliation each day.
-- Standardised procurement across multiple factories.
+- Eliminated approximately **2 hours of daily manual stock reconciliation**.
+- Standardised inventory tracking across multiple factories.
 
 **Repository:**  
-https://github.com/riteshworks/inventory-procurement-tracker
+[inventory-procurement-tracker](https://github.com/riteshworks/inventory-procurement-tracker)
 
 ---
 
@@ -139,29 +164,30 @@ Excel-based logistics tracking system.
 
 ### Features
 
-- Dispatch tracking.
-- Pending quantity calculations.
-- Transporter & LR management.
-- Dynamic reporting without VBA.
+- Tracks dispatch status and pending quantities.
+- Manages transporter and LR details.
+- Generates operational reports without VBA.
 
 **Impact**
 
 Replaced manual multi-sheet reporting and improved logistics visibility.
 
 **Repository:**  
-https://github.com/riteshworks/spares-despatch-tracker
+[spares-despatch-tracker](https://github.com/riteshworks/spares-despatch-tracker)
 
 ---
 
-# Experience
+# Capabilities
 
 - AI Automation
 - Supply Chain Operations
 - Procurement Systems
+- Inventory Management
 - Systems Integration
 - Mechanical Design
 - Manufacturing Engineering
 - Non-Destructive Testing (NDT)
+- Operational Reporting
 
 ---
 
@@ -175,12 +201,12 @@ Ritesh.Vashishat@protonmail.com
 
 **Open To**
 
-- Operations Technology
-- AI Automation
-- Supply Chain Systems
-- Freelance Projects
-- Full-time Opportunities
+- Operations Technology roles
+- AI Automation projects
+- Supply Chain Systems work
+- Freelance opportunities
+- Full-time opportunities
 
 ---
 
-> This repository serves as a central index of my projects across AI Automation, Supply Chain, Engineering, and Operations Technology.
+> This repository serves as a central index of my projects across AI Automation, Supply Chain, Engineering, and Operations Technology, recently migrated to GitHub for portfolio consolidation.
