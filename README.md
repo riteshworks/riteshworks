@@ -29,13 +29,14 @@ I focus on building tools that work in real operational environments, where data
 
 # Project Portfolio
 
-**6 projects across:**
+**Projects across:**
 
 - AI Automation
 - Supply Chain Systems
 - Procurement Analytics
 - Inventory Management
 - Engineering Design
+- Manufacturing Operations
 - Data Extraction
 
 ---
@@ -53,7 +54,7 @@ Autonomous AI customer support system built for a Shopify store.
 - Classified 30+ customer intents using a self-hosted Gemma 4 LLM.
 - Retrieved order details from Shopify with token caching.
 - Scraped live shipment tracking from Shipway.
-- Generated personalised AI responses and logged activity.
+- Personalised AI responses and logged customer interactions.
 
 **Stack**
 
@@ -97,7 +98,7 @@ Reduced manual product data collection effort and enabled quick competitor bench
 
 - Analysed supplier performance and production data.
 - Evaluated vendor performance trends.
-- Optimised machine allocation.
+- Optimised machine allocation to improve delivery performance.
 
 **Impact**
 
@@ -166,7 +167,7 @@ Excel-based logistics tracking system.
 
 - Tracks dispatch status and pending quantities.
 - Manages transporter and LR details.
-- Generates operational reports without VBA.
+- Generates operational reports using native Excel formulas without VBA.
 
 **Impact**
 
